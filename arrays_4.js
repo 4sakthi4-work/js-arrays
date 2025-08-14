@@ -14,16 +14,16 @@
 var planets = ["mercury", "venus", "Earth", "mars"];
 console.log(planets);
 
-planets.push("jupiter");
+planets.push("jupiter");  //added jupiter to end of the array using .push()
 console.log(planets);
 
-planets.unshift("sun");
+planets.unshift("sun");  // .unshift() will add element to the front of array.
 console.log(planets);
 
+planets.pop(); // .pop() deletes the element from the last of the array.
 planets.pop();
-planets.pop();
 console.log(planets);
 
-planets.shift();
+planets.shift();  // .shift() deletes first element of the array.
 planets.shift();
 console.log(planets);
