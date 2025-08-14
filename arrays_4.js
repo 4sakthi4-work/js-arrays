@@ -21,7 +21,7 @@ planets.unshift("sun");  // .unshift() will add element to the front of array.
 console.log(planets);
 
 planets.pop(); // .pop() deletes the element from the last of the array.
-planets.pop();
+planets.pop(); // .pop() deletes the element from the last of the array.
 console.log(planets);
 
 planets.shift();  // .shift() deletes first element of the array.
